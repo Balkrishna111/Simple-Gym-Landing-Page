@@ -4,8 +4,16 @@ const Home = () => {
   return (
     <div
       name='Home'
-      className='pt-60 px-8 w-full pb-20 text-white bg-gradient-to-b from-red-950 to-gray-500 flex flex-col items-center justify-center md:justify-between md:h-screen md:flex-row'
+      className='pt-60 px-8 w-full pb-20 relative text-white bg-gradient-to-b from-red-950 to-gray-500 flex flex-col items-center justify-center md:justify-between md:h-screen md:flex-row'
     >
+      <a
+        target='_blank'
+        href='https://github.com/sann-desh/Simple-Gym-Landing-Page'
+      >
+        <div className='p-2 bg-gray-800 text-white absolute top-28 left-4'>
+          Link to Repo
+        </div>
+      </a>
       <div className='details text-center md:text-right md:w-1/2'>
         <div className='motto font-logoFont mb-4 w-full'>
           <h1 className='text-8xl'>GYM</h1>

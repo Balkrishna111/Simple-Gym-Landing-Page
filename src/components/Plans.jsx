@@ -38,7 +38,7 @@ const Plans = () => {
   return (
     <div
       name='Plan'
-      className='w-full h-[100%] bg-gradient-to-b from-gray-500 to-red-950  flex flex-col justify-center items-center text-white '
+      className='w-full h-[100%] pt-20 bg-gradient-to-b from-gray-500 to-red-950  flex flex-col justify-center items-center text-white '
     >
       <h1 className='text-4xl font-logoFont underline mx-auto text-center  mb-20'>
         Plans

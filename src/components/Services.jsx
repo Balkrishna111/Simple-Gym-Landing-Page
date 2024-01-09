@@ -42,17 +42,17 @@ const Services = () => {
   return (
     <div
       name='Services'
-      className='w-full h-full bg-gradient-to-b from-red-950 to-gray-500  flex flex-col justify-center items-center text-white px-16 md:px-48'
+      className='pt-20 w-full h-full bg-gradient-to-b from-red-950 to-gray-500  flex flex-col justify-center items-center text-white px-16 md:px-48'
     >
-      <h1 className='text-4xl font-logoFont underline mx-auto text-center  mb-20'>
+      <h1 className='text-4xl font-logoFont underline mx-auto text-center mb-20'>
         Services
       </h1>
 
-      <div className='container flex flex-col lg:flex-wrap lg:flex-row lg:justify-center'>
+      <div className='mt-10 container flex flex-col lg:flex-wrap lg:flex-row lg:justify-center'>
         {serviceData.map((data, index) => (
           <div
             key={index}
-            className='card h-40 mb-16 flex md:mr-8 xl:w-[40%]  xk:mb-28'
+            className='card h-40 mb-28  flex md:mr-8 xl:w-[40%]  sm:mb-16'
           >
             <div className='w-1/3  flex justify-center items-center md:w-1/2 '>
               <img src={data.src} alt='img' className='h-full' />

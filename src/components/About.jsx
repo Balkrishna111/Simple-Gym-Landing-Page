@@ -3,7 +3,7 @@ const About = () => {
     <>
       <div
         name='About'
-        className='w-full h-screen pt-8 bg-gradient-to-b from-gray-500 to-red-950 flex flex-col justify-center items-center text-white px-16 md:px-48'
+        className='w-full h-full pt-20 bg-gradient-to-b from-gray-500 to-red-950 flex flex-col justify-center items-center text-white px-16 md:px-48'
       >
         <h1 className='text-4xl font-logoFont underline mx-auto text-center  mb-8'>
           About
